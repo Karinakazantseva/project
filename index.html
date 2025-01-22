@@ -12,68 +12,66 @@
 <img src="images/logo.png" alt="" width="100">
         <h1 class="header__title">Онлайн-школа</h1>
 <nav class="header__menu">
-    <ul> 
-        <li><a href="catalog.html">Курсы</a></li>
-        <li><a href="#">Преподаватели</a></li>
-        <li><a href="#">Блог</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Цены</a></li>
-        <li><a href="#">Контакты</a></li>
+    <ul class="menu__list"> 
+        <li class="menu__item"><a class="menu__link" href="catalog.html">Курсы</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Преподаватели</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
     </ul>
 </nav>
-<button class="header__login"><a href="#">Вход</a></button>
-<button class="header__login"><a href="#">Регистрация</a></button>
+<a href="#" class="header__login">Вход</a>>
+<a href="#" class="header__login">Регистрация</a>
     </header>
-    <main class="main">
-        <section>
-            <div class="courses">
-            <h2 class="tittle_courses">Курсы для разных возрастов</h2>
-            <a href="#" target="_blank", loc="right">Все курсы</a>
-            </div>
-            <ul class="main-menu">
-                <li>
-                    <img class='girls' src="images/girl (1).png" alt="Начальные классы" width="70" height="100">
-                    <h3>Курсы для начальных классов</h3>
-                    <p>Возраст: 7-11 лет</p>
-                    <p>Предметов: 8</p>
-                    <a href="#">Узнать подробнее</a>
-                    <span>От 2 500 Р</span>
+<main class="main">
+        <section class="courses">
+            <h2 class="courses__tittle">Курсы для разных возрастов</h2>
+            <ul class="courses__list">
+                <li class="courses__item">
+                    <img class='courses__image' src="images/girl(1).png" alt="Начальные классы" width="70" height="100">
+                    <h3 class="courses__subtittle">Курсы для начальных классов</h3>
+                    <p class="courses__discription">Возраст: 7-11 лет</p>
+                    <p class="courses__discription">Предметов: 8</p>
+                    <a class='courses__link' href="#">Узнать подробнее</a>
+                    <span class="courses__price">От 2 500 Р</span>
                 </li>
-                <li>
-                    <img class='girls' src="images/girl (2).png" alt="Средние классы" width="70" height="130">
-                    <h3>Курсы для средних классов</h3>
-                    <p>Возраст: 11-16 лет</p>
-                    <p>Предметов: 10</p>
-                    <a href="#">Узнать подробнее</a>
-                    <span>От 2 500 Р</span>
+                <li class="courses__item">
+                    <img class='courses__image' src="images/girl(2).png" alt="Средние классы" width="70" height="130">
+                    <h3 class="courses__subtittle">Курсы для средних классов</h3>
+                    <p class="courses__discription">Возраст: 11-16 лет</p>
+                    <p class="courses__discription">Предметов: 10</p>
+                    <a class='courses__link' href="#">Узнать подробнее</a>
+                    <span class="courses__price">От 2 500 Р</span>
                 </li>
-                <li>
-                    <img class='girls' src="images/girl (3).png" alt="Старшие классы" width="70" height="160">
-                    <h3>Курсы для старших классов</h3>
-                    <p>Возраст: 16-18 лет</p>
-                    <p>Предметов: 14</p>
-                    <a href="#">Узнать подробнее</a>
-                    <span>От 2 500 Р</span>
+                <li class="courses__item">
+                    <img class='courses__image' src="images/girl(3).png" alt="Старшие классы" width="70" height="160">
+                    <h3 class="courses__subtittle">Курсы для старших классов</h3>
+                    <p class="courses__discription">Возраст: 16-18 лет</p>
+                    <p class="courses__discription">Предметов: 14</p>
+                    <a class='courses__link' href="#">Узнать подробнее</a>
+                    <span class="courses__price">От 2 500 Р</span>
                 </li>
             </ul>
+            <a class='courses__link' href="#" target="_blank">Все курсы</a>
         </section>
         <section class="entrance">
-            <form action="/">
-                <h1>Вход в личный кабинет</h1>
-                <input type="tel" name="phone" placeholder="Номер телефона" required>
-                <input type="password" name="password" placeholder="Пароль" required>
-                <button class="main__login">Войти</button>
+            <form class="entrance__form" action="/">
+                <h1 class="entrance__tittle">Вход в личный кабинет</h1>
+                <input class="entrance__input" type="tel" name="phone" placeholder="Номер телефона" required>
+                <input class="entrance__input" type="password" name="password" placeholder="Пароль" required>
+                <button class="entrance__button">Войти</button>
             </form>
         </section>
-    </main>
+</main>
     <footer class="footer">
 <p>Казанцева Карина, группа Ст-23 
     tg - @im_aquarius
 </p>
-    <ul class="ul">
-        <li><a href="#">Классы</a></li>
-        <li><a href="#">Лицензия</a></li>
-        <li><a href="#">Соц сети</a></li>
+    <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Классы</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Лицензия</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Соц сети</a></li>
     </ul>
     </footer>
 </body>
