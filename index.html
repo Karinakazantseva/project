@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,82 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <header class="header">
-<img src="images/logo.png" alt="" width="100">
-        <h1 class="header__title">Онлайн-школа</h1>
-<nav class="header__menu">
-    <ul class="menu__list"> 
-        <li class="menu__item"><a class="menu__link" href="catalog.html">Курсы</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Преподаватели</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-    </ul>
-</nav>
-<a href="#" class="header__login">Вход</a>>
-<a href="#" class="header__login">Регистрация</a>
+    <header class="header container">
+        <img src="images/logo.png" alt="" width="236">
+        <a class="rectangle-1" href="#">Записаться на урок</a>
+        <div class="container">
+            <nav class="header__menu">
+                <ul class="menu__list menu">
+                    <li class="menu__item"><a class="menu__link" href="catalog.html">Для кого</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Как проходят уроки</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Преимущества</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    <li class="menu__item menu__item--right"><a class="menu__link" href="#"><img src="images/user1.png"
+                                alt="" width='18px' height='18px'>Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <nav class="header__class">
+                <ul class="class__list">
+                    <li class="class__item"><a class="rectangle-168-1" href="#" loc="left">1-4 классы</a></li>
+                    <li class="class__item"><a class="rectangle-168" href="#" loc="left">5-8 классы</a></li>
+                    <li class="class__item"><a class="rectangle-168" href="#" loc="left">9-11 классы</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-<main class="main">
+    <main class="main container">
+        <section class='education'>
+            <p class="education__tittle">Настоящая школа</p>
+            <div class="education__wrap">
+                <div class="education__wrap-left">
+                    <p class="education__tittle-1">у вас дома!</p>
+                    <p class="education__text">Мы даем детям реальные знания, потому наши классы не превышают 10
+                        человек. А интерактивность и вовлеченность делает уроки интересными для детей.
+                        <br>
+                    </p>
+                    <p class="education__text-1">Семейное образование с нами - это эффективно!</p>
+                    <div class="link__container">
+                        <img class="Vector" src="images/Vector.png" alt="Vector">
+                        <br>
+                        <a class="rectangle-1-1" href="#">Записаться на урок</a>
+                    </div>
+                </div>
+                <img class="education__wrap-right" src="images/Group.png" alt="группа" width="481" height="286">
+            </div>
+            <div class="write__down-1">
+                <p class="write__down">или написать:
+                    <a href="#"><img class='social__media' src="images/telegramm.png" alt="tg" width="40"
+                            height="40"></a>
+                    <a href="#"><img class='social__media' src="images/watsapp.png" alt="watsapp" width="40"
+                            height="40"></a>
+                </p>
+            </div>
+        </section>
+        <section class="education__for__who">
+            <h2 class="for__who__tittle">Кому подходит онлайн образование?</h2>
+            <ul class="for__who__list">
+                <li class="for__who__item"><img class="for__who__image-2" src="images/Union.png" alt="book">
+                    <p class="for__who__text">Для тех, кто хочет получать знания</p>
+                </li>
+                <li class="for__who__item"><img class="for__who__image-3" src="images/Union(1).png" alt="plane">
+                    <p class="for__who__text">Для путешественников</p>
+                </li>
+                <li class="for__who__item"><img class="for__who__image" src="images/family1.png" alt="family">
+                    <p class="for__who__text">Для семейного обучения</p>
+                </li>
+                <li class="for__who__item"><img class="for__who__image" src="images/sports1.png" alt="sports">
+                    <p class="for__who__text">Для спортсменов</p>
+                </li>
+                <li class="for__who__item"><img class="for__who__image-1" src="images/Union(2).png" alt="abroad">
+                    <p class="for__who__text">Для проживающих за рубежом</p>
+                </li>
+            </ul>
+        </section>
         <section class="courses">
             <h2 class="courses__tittle">Курсы для разных возрастов</h2>
             <ul class="courses__list">
@@ -63,16 +122,17 @@
                 <button class="entrance__button">Войти</button>
             </form>
         </section>
-</main>
-    <footer class="footer">
-<p>Казанцева Карина, группа Ст-23 
-    tg - @im_aquarius
-</p>
-    <ul class="footer__list">
-        <li class="footer__item"><a class="footer__link" href="#">Классы</a></li>
-        <li class="footer__item"><a class="footer__link" href="#">Лицензия</a></li>
-        <li class="footer__item"><a class="footer__link" href="#">Соц сети</a></li>
-    </ul>
+    </main>
+    <footer class="footer container">
+        <p>Казанцева Карина, группа Ст-23
+            tg - @im_aquarius
+        </p>
+        <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#">Классы</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Лицензия</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Соц сети</a></li>
+        </ul>
     </footer>
 </body>
+
 </html>
