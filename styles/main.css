@@ -1,14 +1,22 @@
-.education{
+.education {
     padding: 10px;
-   }
-   .education__wrap{
+    width: 100%;
+}
+
+.education__wrap {
     display: flex;
     gap: 10px;
-   }
-   .education__wrap-right{
-    width: 500px;
+}
+
+.education__wrap-right {
     flex-shrink: 0;
-   }
+}
+
+.education__wrap-left {
+    width: 494px;
+    height: 135px;
+}
+
 .rectangle-1-1 {
     font-size: 11px;
     line-height: 13px;
@@ -29,12 +37,13 @@
     /* gap: 0px; */
     border-radius: 90px 90px 90px 90px;
     /* opacity: 0px; */
-    position: relative; 
+    position: relative;
 }
+
 .education__tittle {
     font-weight: bold;
-    font-size: 78px;
-    line-height: 80.5px;
+    font-size: 81px;
+    line-height: 84px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -43,10 +52,11 @@
     opacity: 0px;
     margin: 0;
 }
+
 .education__tittle-1 {
     font-weight: bold;
-    font-size: 78px;
-    line-height: 80.5px;
+    font-size: 81px;
+    line-height: 84px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -55,14 +65,17 @@
     opacity: 0px;
     margin: 0;
 }
+
 .education__text {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 26.43px;
+    line-height: 28.08px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    margin-bottom: 36px;
 }
+
 .education__text-1 {
     font-weight: bold;
     font-size: 17px;
@@ -73,9 +86,11 @@
     text-decoration-skip-ink: none;
     color: #243976;
 }
+
 .social__media {
     margin-left: 15px;
 }
+
 .write__down {
     font-size: 16px;
     font-weight: 400;
@@ -84,24 +99,32 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     display: flex;
-    align-items: center;  
+    align-items: center;
     margin-top: 10px;
     margin-left: 22px;
 }
+
 .link__container {
     position: relative;
     display: inline-block;
 }
+
 .Vector {
     position: absolute;
-    top: 40%; 
-    transform: translateY(-50%); 
+    top: 26%;
+    transform: translateY(-50%);
     margin-left: 325px;
 }
+
 .write__down-1 {
-    text-align: center; 
-    margin-top: 10px; 
+    text-align: center;
+    margin-top: 10px;
 }
+
+.education__for__who {
+
+}
+
 .for__who__item {
     width: calc(100% / 5 - 20px);
     height: 132px;
@@ -113,6 +136,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .for__who__list {
     margin: 0;
     padding: 20px 0;
@@ -121,12 +145,14 @@
     flex-wrap: wrap;
     list-style-type: none;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
+
 .for__who__image {
     width: 70px;
     height: 70px;
 }
+
 .for__who__text {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -140,10 +166,12 @@
     text-decoration-skip-ink: none;
     color: rgba(36, 57, 118, 1);
 }
+
 .for__who__image-1 {
     width: 67.63px;
     height: 70px;
 }
+
 .for__who__tittle {
     text-align: center;
     color: rgba(36, 57, 118, 1);
@@ -151,11 +179,80 @@
     line-height: 41.28px;
     text-decoration-skip-ink: none;
 }
+
 .for__who__image-2 {
     width: 70.18px;
     height: 70px;
 }
+
 .for__who__image-3 {
     width: 70px;
     height: 67.52px;
+}
+
+.first__month__of__education {
+    background: rgba(239, 242, 253, 1);
+    width: 100%;
+    height: 160px;
+    gap: 0px;
+    border-radius: 25px 25px 25px 25px;
+    opacity: 0px;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+.first__month__image {
+    padding: 0px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+.first__month__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first__month__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(36, 57, 118, 1);
+    width: 550px;
+    height: 42px;
+    margin: 0;
+}
+
+.first__month__wrap-1 {
+    margin-bottom: 10px;
+}
+
+.first__month__tittle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 33.02px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(36, 57, 118, 1);
+    width: 650px;
+    height: 33px;
+    margin: 5px;
+    margin-left: 105px;
+    gap: 0;
+}
+
+.first__month__wrap {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    max-width: 1200px;
+}
+
+.first__month__wrap-left {
+    margin-left: 150px;
+    width: 273px;
+    height: 117px;
 }
