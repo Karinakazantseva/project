@@ -121,10 +121,6 @@
     margin-top: 10px;
 }
 
-.education__for__who {
-
-}
-
 .for__who__item {
     width: calc(100% / 5 - 20px);
     height: 132px;
@@ -256,3 +252,263 @@
     width: 273px;
     height: 117px;
 }
+
+.the__lessons__going {
+    width: 100%;
+    padding: 10px;
+}
+
+.the__lessons__going__tittle {
+    font-size: 50px;
+    line-height: 51.6px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: rgba(36, 57, 118, 1);
+    margin-bottom: 10px;
+}
+
+.the__lessons__going__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.the__lessons__going__tittle-1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    background-color: #fff;
+    width: 299px;
+    color: rgba(36, 57, 118, 1);
+}
+
+.the__lessons__going__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23.55px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(36, 57, 118, 1);
+}
+
+.the__lessons__going__wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.the__lessons__going__wrap-left {
+    margin-left: 20px;
+    width: 310px;
+}
+
+.the__lessons__going__wrap--left {
+    margin-left: 20px;
+    width: 262px;
+}
+
+.the__lessons__going__wrap-right {
+    margin-right: 20px;
+    width: 265px;
+}
+
+.children__love {
+    padding: 10px;
+    width: 100%;
+    height: 711px;
+    gap: 10px;
+    background: #EFF2FD;
+}
+
+.children__love__wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.children__love__wrap-right {
+    flex-shrink: 0;
+}
+
+.children__love__wrap-left {
+    height: 135px;
+}
+
+.children__love__tittle {
+    font-size: 50px;
+    line-height: 51.6px;
+    letter-spacing: 0%;
+    color: rgba(36, 57, 118, 1);
+}
+
+.children__love--tittle {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(36, 57, 118, 1);
+    margin: 0;
+}
+
+.children__love__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgba(36, 57, 118, 1);
+    margin: 0;
+}
+
+.children__love__container {
+    width: 100%;
+    height: 711px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.children__love__item {
+    gap: 10px;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    width: 517px;
+}
+
+.children__love__card {
+    margin: 20px;
+}
+
+.children__love__image {
+    width: 45px;
+    flex-shrink: 0;
+    object-fit: none;
+}
+
+.children__Vector {
+    position: absolute;
+    top: 223%;
+    transform: translateY(-50%);
+    margin-left: 325px;
+}
+
+.comparison__container {
+    margin: 0;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.comparison__tittle {
+    font-size: 50px;
+    line-height: 51.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #243976;
+}
+
+.comparison__tittle__left {
+    font-size: 32px;
+    line-height: 33.02px;
+    color: #243976;
+}
+
+.comparison__tittle__right {
+    font-size: 32px;
+    line-height: 33.02px;
+    color: #FFFFFF;
+}
+
+.comparison__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #243976;
+    margin: 0;
+    gap: 0;
+    display: flex;
+}
+
+.comparison--text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #243976;
+    margin: 0;
+    gap: 0;
+}
+
+.comparison__text--right {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0;
+    gap: 0;
+}
+
+.comparison--text--right {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.comparison--list {
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    border-radius: 15px;
+    width: 376px;
+    height: 490px;
+    align-self: center;
+    justify-content: center;
+}
+
+.comparison--item {
+    color: #243976;
+    margin-left: 30px;
+}
+
+.comparison__list {
+    background: linear-gradient(180deg, #EFF2FD 0%, #FCFCFC 100%);
+    width: 360px;
+    height: 470px;
+    border-radius: 15px;
+    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.comparison__item {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.comparison__card {
+    padding: 20px 0;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.comparison__wrap--right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
