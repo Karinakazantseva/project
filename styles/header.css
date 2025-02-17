@@ -1,7 +1,8 @@
-.header{
+.header {
     color: black;
     background-color: linear-gradient(180deg, #FFFFFF 0%, #EEF1FD 100%);
 }
+
 .menu {
     margin: 0;
     padding: 0;
@@ -9,31 +10,41 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .menu__item--right {
-    margin-left: auto; 
+    margin-left: auto;
+    padding: 10px;
 }
+
 .menu__link img {
     margin-right: 5px;
 }
-.menu__link{
+
+.menu-button {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 16.52px;
     text-align: center;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
     align-items: center;
     display: flex;
+    justify-content: space-between;
     padding: 10px;
     margin: 5px;
     background-color: rgb(255, 255, 255);
     color: rgba(36, 57, 118, 1);
     text-decoration: none;
-}
-.menu__link {
     margin-right: 5px;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
 }
-.header__login{
+
+.menu-button:hover {
+    color: rgba(36, 57, 118, 1);
+    transform: scale(1.2)
+}
+
+.header__login {
     font-size: 14px;
     font-weight: 400;
     line-height: 16.55px;
@@ -48,7 +59,8 @@
     text-decoration: none;
 
 }
-.header{
+
+.header {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -56,27 +68,41 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.rectangle-1 {
+
+.header-button {
     font-size: 11px;
     line-height: 13px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     width: 222px;
     height: 57px;
-    /* left: 918px; */
-    /* gap: 0px; */
+    border: none;
     border-radius: 90px 90px 90px 90px;
-    /* opacity: 0px; */
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
 }
+
+.header-button:hover {
+    background:linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    color: #ffffff;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
+    transform: scale(1.03)
+}
+
+.header-button:active {
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    color: #ffffff;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
+}
+
 .class__list {
     margin: 0;
     padding: 0;
@@ -86,42 +112,32 @@
     gap: 10px;
     align-items: center;
 }
-.rectangle-168 {
+
+.class-button {
     font-size: 12px;
     font-weight: 700;
-    line-height: 14.18px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     width: 130px;
     height: 30px;
-    top: 164px;
-    gap: 0px;
     border-radius: 25px 25px 25px 25px;
-    opacity: 0px;
     background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
     color: #ffffff;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
 }
-.rectangle-168-1 {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 14.18px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    width: 130px;
-    height: 40px;
-    top: 164px;
-    gap: 0px;
-    border-radius: 25px 25px 25px 25px;
-    opacity: 0px;
+
+.class-button:hover {
+    background:linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    color: #ffffff;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
+    transform: scale(1.03)
+}
+
+.class-button:active {
     background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
     color: #ffffff;
+    box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
 }
-   
