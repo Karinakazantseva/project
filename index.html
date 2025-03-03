@@ -16,18 +16,17 @@
         <div class="container">
             <nav class="header__menu">
                 <ul class="menu__list menu">
-                    <li class="menu__item"><a class="menu-button" href="catalog.html">Для кого</a></li>
-                    <li class="menu__item"><a class="menu-button" href="#">Как проходят уроки</a></li>
-                    <li class="menu__item"><a class="menu-button" href="#">Преимущества</a></li>
+                    <li class="menu__item"><a class="menu-button" href="#for__who">Для кого</a></li>
+                    <li class="menu__item"><a class="menu-button" href="#lessons">Как проходят уроки</a></li>
+                    <li class="menu__item"><a class="menu-button" href="#comparison">Преимущества</a></li>
                     <li class="menu__item"><a class="menu-button" href="#">Цены</a></li>
-                    <li class="menu__item"><a class="menu-button" href="#">Контакты</a></li>
+                    <li class="menu__item"><a class="menu-button" href="#contacts">Контакты</a></li>
                     <li class="menu__item menu__item--right"><a class="menu-button" href="#"><img src="images/user1.png"
                                 alt="" width='18' height='18'>Личный кабинет</a></li>
                 </ul>
             </nav>
         </div>
         <div class="container">
-            <p></p>
             <nav class="header__class">
                 <ul class="class__list class">
                     <li class="class__item"><a class="class-button" href="#">1-4 классы</a></li>
@@ -59,10 +58,10 @@
                         </p>
                     </div>
                 </div>
-                <img class="education__wrap-right" src="images/Group.png" alt="группа" width="673" height="400">
+                <img class="education__wrap-right" src="images/Group.png" alt="группа" width="673" height="400"> 
             </div>
         </section>
-        <section class="education__for__who for who">
+        <section class="for__who for who" id="for__who">
             <h2 class="for__who__tittle">Кому подходит онлайн образование?</h2>
             <ul class="for__who__list">
                 <li class="for__who__item"><img class="for__who__image-2" src="images/Union.png" alt="book">
@@ -102,7 +101,7 @@
                 </div>
             </div>
         </section>
-        <section class="the__lessons__going the lessons">
+        <section class="the__lessons__going the lessons" id="lessons">
             <h2 class="the__lessons__going__tittle">Как проходят уроки в нашей онлайн школе?</h2>
             <div class="the__lessons__going__container"
                 style="background-image: url(images/Vector11.png); background-size: auto; background-position: center; background-repeat: no-repeat;">
@@ -119,7 +118,7 @@
                     </div>
                 </div>
                 <div class="the__lessons__going__wrap">
-                    <div class="the__lessons__going--image">
+                    <div class="the__lessons__going--image"> 
                         <img class="the__lessons__going__image" src="images/pic3.png" alt="pic3" width="247"
                             height="217">
                     </div>
@@ -208,14 +207,14 @@
                 </div>
             </div>
         </section>
-        <section class="comparison">
+        <section class="comparison" id="comparison">
             <h1 class="comparison__tittle">Глянем сравнение:</h1>
             <div class="comparison__container">
                 <div class="comparison__card">
                     <img src="images/boys1.png" alt="boys1">
                     <div class="comparison__wrap">
                         <ul class="comparison__list">
-                            <h2 class="comparison__tittle__left">Обычная школа</h2>
+                            <li class="comparison--item-left"><h2 class="comparison__tittle__left">Обычная школа</h2></li>
                             <li class="comparison--item">
                                 <p class="comparison__text">Число детей в классе</p>
                                 <p class="comparison--text">от 25</p>
@@ -244,7 +243,7 @@
                     </div>
                     <div class="comparison__wrap--right">
                         <ul class="comparison--list">
-                            <h2 class="comparison__tittle__right">Онлайн школа</h2>
+                            <li class="comparison__item-left"><h2 class="comparison__tittle__right">Онлайн школа</h2></h2>
                             <li class="comparison__item">
                                 <p class="comparison__text--right">Число детей в классе</p>
                                 <p class="comparison--text--right">до 12</p>
@@ -375,13 +374,17 @@
                 <img class="footer__image" src="images/vkontakte.png" alt="vkontakte">
             </div>
         </div>
-        <div class="footer__wrap">
-            <img class="footer__image" src="images/icon_map.png" alt="icon_map">
-            <p class="footer__text">г. Йошкар-Ола
-                <br>ул Машиностроителей, 15
-            </p>
-            <img class="footer__image" src="images/icon_tel.png" alt="icon_tel">
-            <p class="footer__text">8 (927) 878-71-82</p>
+        <div class="footer__wrap" id="contacts">
+            <div class="footer__wrap-right">
+                <img class="footer__image-left" src="images/icon_map.png" alt="icon_map" width="46" height="46">
+                <p class="footer__text">г. Йошкар-Ола
+                    <br>ул Машиностроителей, 15
+                </p>
+            </div>
+            <div class="footer__wrap-right">
+                <img class="footer__image-left" src="images/icon_tel.png" alt="icon_tel" width="46" height="46">
+                <p class="footer__text">8 (927) 878-71-82</p>
+            </div>
         </div>
     </footer>
 </body>

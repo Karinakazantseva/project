@@ -10,11 +10,11 @@
 
 .education__wrap-right {
     flex-shrink: 0;
+    align-self: flex-start;
 }
 
 .education__wrap-left {
     width: 494px;
-    height: 135px;
 }
 
 .education-button {
@@ -25,9 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    background-image: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
     color: #ffffff;
-    transition: background 0.3s, color 0.3s;
+    transition: background-image;
+    transition-duration: 0.5s;
     text-decoration: none;
     box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
     width: 273px;
@@ -36,14 +37,14 @@
 }
 
 .education-button:hover {
-    background:linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    background-image: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
     color: #ffffff;
     box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
     transform: scale(1.03)
 }
 
 .education-button:active {
-    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    background-image: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
     color: #ffffff;
     box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
 }
@@ -160,8 +161,6 @@
     margin-top: 30px;
     margin-bottom: 15px;
     text-align: center;
-    width: 242px;
-    height: 46px;
     font-weight: bold;
     font-size: 15px;
     line-height: 21px;
@@ -227,6 +226,7 @@
     width: 550px;
     height: 42px;
     margin: 0;
+    margin-left: 22px;
 }
 
 .first__month__wrap-1 {
@@ -243,7 +243,7 @@
     width: 650px;
     height: 33px;
     margin: 5px;
-    margin-left: 105px;
+    margin-left: 125px;
     gap: 0;
 }
 
@@ -324,6 +324,7 @@
 .the__lessons__going__wrap-right {
     margin-right: 20px;
     width: 265px;
+    margin-left: 20px;
 }
 
 .children {
@@ -426,7 +427,7 @@
 }
 
 .children-button:hover {
-    background:linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
+    background: linear-gradient(272.77deg, #864FF1 0%, #49B3F7 100%);
     color: #ffffff;
     box-shadow: 0px 6px 21px 0px rgba(104, 130, 245, 0.67);
     transform: scale(1.03)
@@ -460,12 +461,12 @@
 }
 
 .children__Vector {
-    width: 50px; 
+    width: 50px;
     height: auto;
 }
 
 .children__link-vector {
-    display: flex; 
+    display: flex;
     align-items: center;
 }
 
@@ -482,6 +483,7 @@
     text-align: center;
     color: #243976;
 }
+
 
 .comparison__tittle__left {
     font-size: 32px;
@@ -546,6 +548,14 @@
     margin-left: 30px;
 }
 
+.comparison--item-left {
+    list-style-type: none;
+}
+
+.comparison__item-left {
+    list-style-type: none;
+}
+
 .comparison__list {
     background: linear-gradient(180deg, #EFF2FD 0%, #FCFCFC 100%);
     width: 360px;
@@ -572,9 +582,24 @@
 
 }
 
+.comparison__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.4s;
+}
+
+.comparison__wrap:hover {
+    transform: scale(1.03)
+}
+
 .comparison__wrap--right {
     display: flex;
     flex-wrap: wrap;
+    transition: transform 0.4s;
+}
+
+.comparison__wrap--right:hover {
+    transform: scale(1.03)
 }
 
 .suits__container {
@@ -610,6 +635,8 @@
 .suits__wrap {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .suits__wrap--right {
@@ -618,6 +645,7 @@
 
 .suits__image {
     margin-left: 80px;
+    height: 160px
 }
 
 .suits__pay__wrap {

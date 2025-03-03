@@ -28,6 +28,8 @@
 
 .classes__link {
     text-decoration: none;
+    color: #243976;
+    ;
 }
 
 .footer__text {
@@ -50,12 +52,23 @@
 
 .footer__media {
     margin-left: 15px;
+    display: flex;
+    gap: 10px;
 }
 
 .footer__wrap {
     padding: 20px;
-    max-width: 242px;
+    max-width: 280px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.footer__wrap-right {
+    display: flex;
+}
+
+.footer__image-left {
+    display: flex;
+    object-fit: none;
 }

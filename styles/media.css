@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1024px) {
+
+    .first__month__content {
+        width: 520px;
+    }
+
+    .first__month__tittle {
+        font-size: 25px;
+        width: 500px;
+        margin: 5px;
+    }
+
+    .first__month__text {
+        margin-left: 1px;
+        width: 500px;
+    }
+
+    .first__month__wrap-left {
+        margin-left: 10px;
+    }
+
+    .the__lessons__going--image {
+        width: 170px;
+    }
+
+    .the__lessons__going__container {
+        gap: 10px;
+    }
+
+    .the__lessons__going__wrap-left {
+        width: 270px;
+    }
+
+    .the__lessons__going__tittle {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu {
+     flex-wrap: wrap;
+    }
+    }
