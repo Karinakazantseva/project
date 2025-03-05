@@ -623,6 +623,15 @@
     display: flex;
 }
 
+.suits__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23.58px;
+    text-align: center;
+    color: #243976;
+    margin: 0;
+}
+
 .suits--tittle {
     font-weight: bold;
     font-size: 20px;
@@ -630,12 +639,12 @@
     text-align: center;
     color: rgba(36, 57, 118, 1);
     justify-content: center;
+    display: flex;
 }
 
 .suits__wrap {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 

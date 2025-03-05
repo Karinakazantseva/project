@@ -34,6 +34,72 @@
     .the__lessons__going__tittle {
         font-size: 40px;
     }
+
+    .children {
+        height: 630px;
+    }
+
+    .children__container {
+        padding: 0;
+    }
+
+    .children__item {
+        gap: 0;
+    }
+
+    .children__card {
+        margin: 10px;
+    }
+
+    .children__list {
+        padding: 0;
+    }
+
+    .children__wrap-right {
+        width: 422px;
+        height: 276px;
+    }
+
+    .suits__container {
+        padding: 0;
+        gap: 0;
+    }
+
+    .suits__card {
+        width: 300px;
+    }
+
+    .suits--tittle {
+        font-size: 17px;
+        line-height: 18px;
+    }
+
+    .suits__text {
+        line-height: 20px;
+    }
+
+    .suits__wrap--right {
+        width: 300px;
+    }
+
+    .suits__pay__content {
+        width: 520px;
+    }
+
+    .suits__pay__tittle {
+        font-size: 25px;
+        width: 500px;
+        margin: 5px;
+    }
+
+    .suits__pay__text {
+        margin-left: 1px;
+        width: 500px;
+    }
+
+    .suits__pay__wrap-left {
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
