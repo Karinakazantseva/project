@@ -61,7 +61,7 @@
     margin: 0;
 }
 
-.education__tittle-1 {
+.education--tittle {
     font-weight: bold;
     font-size: 81px;
     line-height: 84px;
@@ -152,11 +152,6 @@
     justify-content: center;
 }
 
-.for__who__image {
-    width: 70px;
-    height: 70px;
-}
-
 .for__who__text {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -169,22 +164,12 @@
     color: rgba(36, 57, 118, 1);
 }
 
-.for__who__image-1 {
-    width: 67.63px;
-    height: 70px;
-}
-
 .for__who__tittle {
     text-align: center;
     color: rgba(36, 57, 118, 1);
     font-size: 40px;
     line-height: 41.28px;
     text-decoration-skip-ink: none;
-}
-
-.for__who__image-2 {
-    width: 70.18px;
-    height: 70px;
 }
 
 .for__who__image-3 {
@@ -284,7 +269,7 @@
     flex-wrap: wrap;
 }
 
-.the__lessons__going__tittle-1 {
+.the__lessons__going--tittle {
     font-weight: bold;
     font-size: 20px;
     line-height: 20.6px;
