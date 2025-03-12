@@ -96,7 +96,11 @@
     transform: scale(1.1)
 }
 
-.social__media {
+.children__link {
+    margin-left: 15px;
+}
+
+.education__link {
     margin-left: 15px;
 }
 
@@ -245,12 +249,12 @@
     height: 117px;
 }
 
-.the__lessons__going {
+.the__lessons {
     width: 100%;
     padding: 10px;
 }
 
-.the__lessons__going__tittle {
+.the__lessons__tittle {
     font-size: 50px;
     line-height: 51.6px;
     text-align: center;
@@ -259,7 +263,7 @@
     margin-bottom: 10px;
 }
 
-.the__lessons__going__container {
+.the__lessons__container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -269,7 +273,7 @@
     flex-wrap: wrap;
 }
 
-.the__lessons__going--tittle {
+.the__lessons--tittle {
     font-weight: bold;
     font-size: 20px;
     line-height: 20.6px;
@@ -280,7 +284,7 @@
     color: rgba(36, 57, 118, 1);
 }
 
-.the__lessons__going__text {
+.the__lessons__text {
     font-size: 15px;
     font-weight: 400;
     line-height: 23.55px;
@@ -289,24 +293,24 @@
     color: rgba(36, 57, 118, 1);
 }
 
-.the__lessons__going__wrap {
+.the__lessons__wrap {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     justify-content: space-between;
 }
 
-.the__lessons__going__wrap-left {
+.the__lessons__wrap-left {
     margin-left: 20px;
     width: 310px;
 }
 
-.the__lessons__going__wrap--left {
+.the__lessons__wrap--left {
     margin-left: 20px;
     width: 262px;
 }
 
-.the__lessons__going__wrap-right {
+.the__lessons__wrap-right {
     margin-right: 20px;
     width: 265px;
     margin-left: 20px;
