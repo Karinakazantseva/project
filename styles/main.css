@@ -61,7 +61,7 @@
     margin: 0;
 }
 
-.education--tittle {
+.education__subtittle {
     font-weight: bold;
     font-size: 81px;
     line-height: 84px;
@@ -273,7 +273,7 @@
     flex-wrap: wrap;
 }
 
-.the__lessons--tittle {
+.the__lessons-tittle {
     font-weight: bold;
     font-size: 20px;
     line-height: 20.6px;
@@ -305,7 +305,7 @@
     width: 310px;
 }
 
-.the__lessons__wrap--left {
+.the__lessons__wrap-left {
     margin-left: 20px;
     width: 262px;
 }
@@ -344,7 +344,7 @@
     color: rgba(36, 57, 118, 1);
 }
 
-.children--tittle {
+.children__subtittle {
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
@@ -474,7 +474,7 @@
 }
 
 
-.comparison__tittle__left {
+.comparison__subtittle__left {
     font-size: 32px;
     line-height: 33.02px;
     color: #243976;
@@ -496,7 +496,7 @@
     display: flex;
 }
 
-.comparison--text {
+.comparison__number {
     font-weight: 700;
     font-size: 15px;
     line-height: 22.5px;
@@ -532,7 +532,12 @@
     justify-content: center;
 }
 
-.comparison--item {
+.comparison__item {
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.comparison__item--left {
     color: #243976;
     margin-left: 30px;
 }
@@ -557,10 +562,7 @@
     box-shadow: 3.91px 11.72px 31.25px 0px rgba(30, 35, 66, 0.15);
 }
 
-.comparison__item {
-    color: #FFFFFF;
-    margin-left: 30px;
-}
+
 
 .comparison__card {
     padding: 20px 0;
@@ -704,3 +706,50 @@
     color: rgba(36, 57, 118, 1);
     text-align: center;
 }
+
+.button__container {
+    display: flex;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.button__tittle {
+    color: rgba(36, 57, 118, 1);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button__type {
+    background: white; 
+    border-radius: 30px;
+    width: 320px;
+    height: 30px;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.button__link {
+    border-radius: 9px;
+    background: linear-gradient(26.5deg, #4271DF 16.72%, #789CF1 95.45%);
+    color: #ffffff;
+    border: 0;
+    border-radius: 30px;
+    width: 320px;
+    height: 30px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
