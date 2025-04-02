@@ -750,6 +750,69 @@
 }
 
 ::placeholder {
-    color: black;
+    color: #243976;
     opacity: 1; /* Firefox */
   }
+
+  .signups {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000063;
+  }
+
+  .signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 64px;
+    background-color: #789CF1;
+    color: #FFFFFF;
+    border-radius: 6px;
+  }
+
+  .signup__tittle {
+    font-size: 36px;
+  }
+
+  .signup__form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .signup__close {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    padding: 10px; 
+    background-color: white; 
+    color: #243976;
+    border: 2px solid #243976;
+    border-radius: 6px;
+}
+
+.signup__button {
+    background-color: #97aad7;
+    border-radius: 6px;
+    border: 2px solid #243976;
+    color: black;
+    font-weight: bold;
+}
+
+.signup__input {
+    border-radius: 6px;
+    border: 1px solid #243976;
+    color: #243976;
+}
+  

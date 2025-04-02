@@ -19,10 +19,26 @@ document.addEventListener("DOMContentLoaded", () => {
         */
     const signup = document.querySelectorAll(".signup");
     signup.forEach((item, index) => {
-    item.addEventListener ('click', (event) => {
-    event.preventDefault();
-        console.log("Перейти");
+        item.addEventListener('click', (event) => {
+            event.preventDefault();
+            console.log("Перейти");
+        });
     });
+    const welcоmeButtonModal = document.querySelector(".signup-open");
+    const modalApplication = document.querySelector(".signups");
+    if (welcоmeButtonModal && modalApplication) {
+        welcоmeButtonModal.addEventListener("click", () => {
+            modalApplication.removeAttribute("hidden");
+        });
+    }
+    window.addEventListener("click", (event) => {
+        if (event.target === modalApplication) {
+            modalApplication.setAttribute("hidden", true);
+        }
+    });
+    const closeModalButton = document.querySelector(".signup__close");
+    closeModalButton.addEventListener("click", () => {
+        modalApplication.setAttribute("hidden", true);
     });
 });
 

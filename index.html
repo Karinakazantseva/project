@@ -13,7 +13,7 @@
 <body>
     <header class="header container">
         <img src="images/logo.png" alt="" width="236">
-        <a class="header-button signup" href="signup.html">Записаться на урок</a>
+        <a class="header-button signup-open" href="#">Записаться на урок</a>
         <div class="container">
             <nav class="header__menu">
                 <ul class="menu__list menu">
@@ -49,7 +49,7 @@
                     <div class="education__link__container">
                         <img class="Vector" src="images/Vector.png" alt="Vector">
                         <br>
-                        <a class="education-button signup" href="signup.html">Записаться на урок</a>
+                        <a class="education-button signup-open" href="#">Записаться на урок</a>
                         <p class="education__link__text">или написать:
                             <a class="education__link-button" href="#"><img class="education__link"
                                     src="images/telegramm.png" alt="tg" width="40" height="40"></a>
@@ -91,7 +91,7 @@
                     </p>
                 </div>
                 <div class="first__month__wrap-left">
-                    <a class="education-button signup" href="signup.html">Записаться на урок</a>
+                    <a class="education-button signup-open" href="#">Записаться на урок</a>
                     <p class="education__link__text">или написать:
                         <a class="education__link-button" href="#"><img class='education__link' src="images/telegramm.png"
                                 alt="tg" width="40" height="40"></a>
@@ -192,7 +192,7 @@
                         </ul>
                         <div class="children__link__container">
                             <div class="children__link-vector">
-                                <a class="children-button signup" href="signup.html">Записаться на урок</a>
+                                <a class="children-button signup-open" href="#">Записаться на урок</a>
                                 <img class="children__Vector" src="images/Vector.png" alt="Vector">
                             </div>
                             <p class="children__text">или написать:
@@ -351,7 +351,7 @@
                     </p>
                 </div>
                 <div class="suits__pay__wrap-left">
-                    <a class="education-button signup" href="signup.html">Записаться на урок</a>
+                    <a class="education-button signup-open" href="#">Записаться на урок</a>
                     <p class="education__link__text">или написать:
                         <a class="education__link-button" href="#"><img class='education__link' src="images/telegramm.png"
                                 alt="tg" width="40" height="40"></a>
@@ -361,7 +361,20 @@
                 </div>
             </div>
         </section>
-        
+        <div class="signups" hidden>
+            <section class="signup">
+                <div class="signup__wrap">
+                    <h3 class="signup__tittle">Записаться на курс</h3>
+                </div>
+                <button class="signup__close" type="button">Закрыть</button>
+                <form action="/" class="signup__form">
+                    <input class="signup__input" type="text" placeholder="ФИО">
+                    <input class="signup__input" type="tel" placeholder="Телефон">
+                    <input class="signup__input" type="email" placeholder="E-mail">
+                    <button class="signup__button button">Записаться</button>
+                </form>
+            </section>
+        </div>
     </main>
     <footer class="footer container">
         <img class="footer__image__logo" src="images/logo.png" alt="logo" width="236" height="67">
