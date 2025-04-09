@@ -24,12 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("Перейти");
         });
     });
-    const welcоmeButtonModal = document.querySelector(".signup-open");
+    const welcоmeButtonModal = document.querySelectorAll(".signup-open");
     const modalApplication = document.querySelector(".signups");
     if (welcоmeButtonModal && modalApplication) {
-        welcоmeButtonModal.addEventListener("click", () => {
-            modalApplication.removeAttribute("hidden");
+        welcоmeButtonModal.forEach((item, index) => {
+            item.addEventListener('click', (event) => {
+                event.preventDefault();
+                console.log("Перейти");
+                modalApplication.removeAttribute("hidden");
+            });
         });
+        // welcоmeButtonModal.addEventListener("click", () => {
+        //     modalApplication.removeAttribute("hidden");
+        // });
     }
     window.addEventListener("click", (event) => {
         if (event.target === modalApplication) {
