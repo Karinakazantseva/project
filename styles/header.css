@@ -38,6 +38,7 @@
     margin-right: 5px;
     transition: transform 0.3s;
     text-decoration: none;
+    gap: 10px;
 }
 
 .menu-button:hover {

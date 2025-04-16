@@ -47,5 +47,62 @@ document.addEventListener("DOMContentLoaded", () => {
     closeModalButton.addEventListener("click", () => {
         modalApplication.setAttribute("hidden", true);
     });
+
+    //Динамический вывод навигационного меню
+    const headerMenu = document.querySelector('.header__menu');
+    if (headerMenu) {
+        const headerList = headerMenu.querySelector('.menu__list');
+        const menuData = {
+            link1: {
+                link: '#for__who',
+                title: 'Для кого',
+            },
+            link2: {
+                link: '#lessons',
+                title: 'Как проходят уроки',
+            },
+            link3: {
+                link: '#comparison',
+                title: 'Преимущества',
+            },
+            link4: {
+                link: '#contacts',
+                title: 'Контакты',
+            }
+        }
+        const createLink = (UrlLink, title) => {
+            const link = `
+            <li class="menu__item"><a href="${UrlLink}" class="menu-button">${title}</a></li>
+            `;
+            return link;
+        }
+        for (const linkItem in menuData) {
+            const link = menuData[linkItem];
+            const linkIndex = createLink(link.link, link.title);
+            headerList.insertAdjacentHTML('beforeend', linkIndex);
+        }
+        const lastlink = `
+            <li class="menu__item menu__item--right"><a class="menu-button" href="#"><img src="images/user1.png"
+                                alt="" width='18' height='18'>Личный кабинет</a></li>
+            `;
+        headerList.insertAdjacentHTML('beforeend', lastlink);
+        console.log('Навигацинное меню создано с помощью javascript!');
+    }
+
+    const ForWhoContainer = document.querySelector(".for__who");
+    if (ForWhoContainer) {
+        const dataTitleForWho = [
+            "Для тех, кто хочет получать знания",
+            "Для путешественников",
+            "Для семейного образования",
+            "Для спортсменов",
+            "Для проживающих за рубежом",
+        ];
+        const titleForWho = ForWhoContainer.querySelectorAll(".for__who__text");
+        titleForWho.forEach((item, index) => {
+            item.textContent = dataTitleForWho[index];
+           });
+    }
+
 });
 
