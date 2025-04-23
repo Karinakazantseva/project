@@ -8,4 +8,6 @@
 @import "footer.css";
 /* Подключение стилей относящихся к main */
 @import "main.css";
+@import "images.css";
+@import "preloader.css";
 @import "media.css";

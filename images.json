@@ -1,0 +1,26 @@
+[
+    {
+        "imageUrl": [
+            "images/girl(1).png",
+            "images/girl(2).png"
+        ],
+        "imageAlt": "Девушка",
+        "imageWidth": 150
+    },
+    {
+        "imageUrl":[
+            "images/girl(1).png",
+            "images/girl(2).png"
+        ],
+        "imageAlt": "Девушка",
+        "imageWidth": 150
+    },
+    {
+        "imageUrl":[
+            "images/girl(1).png",
+            "images/girl(2).png"
+        ],
+        "imageAlt": "Девушка",
+        "imageWidth": 150
+    }
+]
