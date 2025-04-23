@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -383,10 +383,10 @@
                     </div>
                     <button class="signup__close" type="button">Закрыть</button>
                     <form action="/" class="signup__form">
-                        <input class="signup__input" type="text" placeholder="ФИО">
-                        <input class="signup__input" type="tel" placeholder="Телефон">
-                        <input class="signup__input" type="email" placeholder="E-mail">
-                        <button class="signup__button button">Записаться</button>
+                        <input class="signup__input" type="text" placeholder="ФИО" id="username">
+                        <input class="signup__input" type="tel" placeholder="Телефон" id="tel">
+                        <input class="signup__input" type="email" placeholder="E-mail" id="email">
+                        <button class="signup__button button" type="submit">Записаться</button>
                     </form>
                 </section>
             </div>
@@ -395,6 +395,58 @@
                 <ul class="images__list">
                     <!--Здесь будет создаваться код с использованием JSON. -->
                 </ul>
+            </section>
+            <section class="section card card--slider swiper">
+                <h1 class="card__tittle">Чем полезны наши онлайн-курсы?</h1>
+                <div class="card__list card__list--slider swiper-wrapper">
+                    <a class="card__item swiper-slide" href="#">
+                        <span class="card__icon">
+                            <img src="images/pic.png" alt="Иконка" width="270" height="90">
+                        </span>
+                        <h3 class="card__title">Ищем сильные стороны</h3>
+                        <p class="card__description">Мы ведем статистическую работу с целью
+                            определить сильные и слабые стороны учащегося.</p>
+                    </a>
+                    <a class="card__item swiper-slide" href="#">
+                        <span class="card__icon">
+                            <img src="images/Frame 10.png" alt="Иконка" width="270" height="90">
+                        </span>
+                        <h3 class="card__title">Концентрация на важном</h3>
+                        <p class="card__description">У ребёнка будет по 3–5 урока в день и минимум
+                            домашних заданий. Останется время на встречи
+                            с друзьями и дополнительного посещения
+                            спортивных и творческих секций.</p>
+                    </a>
+                    <a class="card__item swiper-slide" href="#">
+                        <span class="card__icon">
+                            <img src="images/Frame 13.png" alt="Иконка" width="270" height="90">
+                        </span>
+                        <h3 class="card__title">Удобный график</h3>
+                        <p class="card__description">У ребёнка будет по 3–5 урока в день и минимум домашних
+                            заданий. Останется время на встречи с друзьями и
+                            дополнительного посещения спортивных и творческих секций.</p>
+                    </a>
+                    <a class="card__item swiper-slide" href="#">
+                        <span class="card__icon">
+                            <img src="images/Frame 11.png" alt="Иконка" width="270" height="90">
+                        </span>
+                        <h3 class="card__title">Поддержка учеников</h3>
+                        <p class="card__description">В личном кабинете ученик может задать вопрос в чате своему педагогу
+                            или дежурному в случае если он испытывает сложности в решении домашнего задания</p>
+                    </a>
+                    <a class="card__item swiper-slide" href="#">
+                        <span class="card__icon">
+                            <img src="images/picture.png" alt="Иконка" width="270" height="90">
+                        </span>
+                        <h3 class="card__title">Живой урок с учителем</h3>
+                            <p class="card__description">В рамках спецификации
+                                современных стандартов, предприниматели в сети интернет могут быть преданы
+                                социально-демократической анафеме!</p>
+                    </a>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </section>
         </main>
         <footer class="footer container">
@@ -428,6 +480,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 

@@ -815,4 +815,20 @@
     border: 1px solid #243976;
     color: #243976;
 }
-  
+
+.card {
+    margin-top: 70px;
+}
+
+.card__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card__item {
+    line-height: 26px;
+}
+
+.card__title {
+    font-size: 22px;
+}

@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
         * 
         *   Блок-схема: /images/Block-schema.png
         */
-    const signup = document.querySelectorAll(".signup");
-    signup.forEach((item, index) => {
-        item.addEventListener('click', (event) => {
-            event.preventDefault();
-            console.log("Перейти");
-        });
-    });
+    // const signup = document.querySelectorAll(".signup");
+    // signup.forEach((item, index) => {
+    //     item.addEventListener('click', (event) => {
+    //         event.preventDefault();
+    //         console.log("Перейти");
+    //     });
+    // });
     const welcоmeButtonModal = document.querySelectorAll(".signup-open");
     const modalApplication = document.querySelector(".signups");
     if (welcоmeButtonModal && modalApplication) {
@@ -179,6 +179,43 @@ document.addEventListener("DOMContentLoaded", () => {
             preloader.remove();
         }, 3000); // Задержка 3 секунды
     }
+
+    const slider = document.querySelector('.swiper');
+
+    if (slider) {
+        const swiper = new Swiper(slider, {
+            // Дополнительные параметры
+            slidesPerView: 4, // Количество слайдов на экране
+            spaceBetween: 30, // Расстояние между слайдами
+            loop: true,  // Зацикливание слайдов
+
+            // Пагинация
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Навигационные стрелки
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    }
+
+    const registrationPopup = document.querySelector(".signup__form")
+    registrationPopup.addEventListener('submit', (event) => {
+        event.preventDefault(); // Предотвращаем отправку формы
+
+        const username = registrationPopup.querySelector('#username').value;
+        const email = registrationPopup.querySelector('#email').value;
+        const tel = registrationPopup.querySelector('#tel').value;
+
+        // Запишем логин
+        window.localStorage.setItem("username", username);
+        alert(username + ", вы записаны на курс")
+        // Очистка формы
+        registrationPopup.reset();
+    });
 });
 
 
